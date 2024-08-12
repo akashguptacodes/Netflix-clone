@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+.main{
+    background-image: url("bg.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+}
+nav{
+
+    display:flex;
+    width: 77vw;
+    margin:auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    
+}
+.button1{
+    padding: 5px 10px;
+    font-size: 17px;
+    opacity: 0.65;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    border: 0.01em solid white;
+}
+.button2{
+    padding: 8px 14px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    border:rgb(228, 23, 23);
+    background-color: rgb(228, 23, 23);
+}
+.main .box{
+    opacity: 0.75;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+   cursor: pointer;
+}
+.buttons{
+    display: flex;
+    column-gap: 25px;
+}
+.middle{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    align-items: center;
+    margin-top: 140px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+.middle :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.middle :nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+}
+.middle :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+}
+.middle :nth-child(4) input{
+    font-size: 16px;
+    font-weight: 200;
+    height: 26px;
+    width: 390px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    
+}
+.GetStarted{
+    padding: 13px 22px;
+    background-color:rgb(228, 23, 23);
+    color: white;
+    border-radius: 5px;
+    border: rgb(228, 23, 23);
+}
+button{
+    cursor: pointer;
+}
+.tv1{
+    display: flex;
+    margin-top: 9px;
+    height: 550px;
+    width: 1519px;
+    background-color: black;
+    color: white;
+    justify-content:space-around;
+    align-items: center;
+}
+.tv1left{
+    padding-left: 14%;
+}
+.tv1 :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.tv1 :nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.hamarivideo{
+    height: 50%;
+    width:7.8em;
+    position: absolute;
+    top: 114%;
+    right: 8.8%;
+    z-index: 1;
+}
+.tvimg{
+    position: relative;
+    z-index: 2;
+}
+.line{
+    height: 9px;
+    width: 100%;
+    background-color: black;
+    opacity:0.75;
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 1519px;
+    background-color: black;
+}
+.mobileright{
+    color: white;
+}
+.mobile :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.mobile :nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+}
+.stranger{
+    display: flex;
+    column-gap: 15px;
+    color: white;
+    position: absolute;
+    left: 275px;
+    top:100em;
+    border-radius: 12px;
+    border: 2px solid grey;
+    background-color: black;
+    padding-top: 10px;
+
+}
+.stranger .strangermiddle .stranger2{
+    font-size: 18px;
+}
+.stranger3{
+    color: blue;
+    font-size: 14px;
+}
+.sacred{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 550px;
+    width: 1519px;
+    background-color: black;
+}
+.sacredleft :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.sacredleft :nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+}
+.sacredvideo{
+    position: absolute;
+    left: 54%;
+    top: 270%;
+    z-index: 0;
+}
+.rajmachawal{
+    position: relative;
+    z-index: 1;
+    
+}
+.children{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 550px;
+    width: 1519px;
+    background-color: black;
+}
+.childrenright :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.childrenright :nth-child(2){
+    font-weight: 400;
+    font-size: 25px;
+}
+.questions{
+    height: 1070px;
+    width: 1519px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+h1{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 48px;
+}
+.first{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    height:8%;
+    width:78%;
+    background-color: black;
+}
+.second{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    height:8%;
+    width:78%;
+    background-color: black;
+    
+}
+.third{margin-top: 10px;
+    font-size: 1.3rem;
+    height:8%;
+    width:78%;
+    background-color: black;
+}
+.fourth{margin-top: 10px;
+    font-size: 1.3rem;
+    height:8%;
+    width:78%;
+    background-color: black;
+    }
+summary{
+    height: 5rem;
+    
+    font-size: 1.6rem;
+    background-color: rgb(48, 46, 46);
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    transition: 0.25s ease-out 0.2s;
+}
+summary:hover{
+    background-color: rgb(96, 93, 93);
+}
+.add{
+    filter: invert(100%);
+    position: relative;
+    right: -55rem;
+}
+.add:active{
+    transform: rotateZ(45deg);
+
+}
+.space{
+    height: 0.1rem;
+    width: 100%;
+    background-color: aliceblue;
+}
+.questions span input{
+    font-size: 16px;
+    font-weight: 200;
+    height: 26px;
+    width: 390px;
+    background-color: rgb(50, 48, 48);
+    opacity: 0.6;
+    color: white;
+    padding: 15px;
+    
+}
+.questions span .GetStarted{
+    padding: 13px 22px;
+    background-color:rgb(228, 23, 23);
+    color: white;
+    border-radius: 5px;
+    border: rgb(228, 23, 23);
+    font-size: 25px;
+}
